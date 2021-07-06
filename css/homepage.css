@@ -1,0 +1,57 @@
+header{
+    height: 50rem;
+    width: 100vw;
+    background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
+    url(../img/header.jpg) center center /cover no-repeat;
+}
+
+    
+
+
+footer{
+    background-color: black;
+}
+
+.titre-foot{
+    color: white;
+    font-family: 'Courgette', cursive;
+}
+
+#brand{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#email-bar{
+    border: gray  2px s;
+    
+}
+
+.subscribe-foot{
+    font-family: 'Oswald', 'sans serif';
+    background-color: black;
+    color: white;
+    border: white 2px solid;
+}
+
+.subscribe-side{
+    font-family: 'Oswald', 'sans serif';
+    background-color:white;
+    color: black;
+    height: 4vh;
+    border: 2px solid;
+    
+}
+
+#email-bar{
+    font-family: 'Oswald', 'sans serif';
+}
+
+#search-bar{
+    font-family: 'Oswald', 'sans serif';
+}
+
+
+
