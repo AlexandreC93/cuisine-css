@@ -1,8 +1,11 @@
 header{
     height: 50rem;
-    width: 100vw;
+    width: 30rem;
     background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
     url(../img/header.jpg) center center /cover no-repeat;
+    
+    
+
 }
 
     
@@ -52,6 +55,29 @@ footer{
 #search-bar{
     font-family: 'Oswald', 'sans serif';
 }
+
+#container-article{
+    display: flex;
+    flex-flow: column;
+    justify-content: right;
+    align-items: center;
+
+
+}
+
+.img-art{
+    width: 25rem;
+}
+
+body{
+    margin: 0;
+    width: 10rem;
+}
+
+@media{
+
+}
+
 
 
 
