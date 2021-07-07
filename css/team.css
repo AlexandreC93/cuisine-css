@@ -6,6 +6,16 @@ header{
     url(../img/team/team.jpg) center center /cover no-repeat;
 }
 
+#text-head{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Courgette', 'cursive';
+}
+
+
 img{
     width: 10rem;
     height: 10rem;

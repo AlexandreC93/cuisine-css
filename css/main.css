@@ -152,7 +152,7 @@ p.font{
 
 #text-head{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
