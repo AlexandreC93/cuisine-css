@@ -15,3 +15,44 @@ img{
  .img-head{
      visibility: hidden;
  }
+
+ #equipe{
+     display: flex;
+     flex-flow:column wrap ;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ #equipe-2{
+    display: flex;
+    flex-flow:column wrap ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ .img-team{
+     height: 25vh;
+     width: 25vw;
+ }
+
+/* MEDIA-QUERY */
+
+ @media only screen and (max-width: 992px) {
+
+    aside{
+        display: none;
+    }
+     
+ }
+
+ @media only screen and (min-width: 992px){
+    #equipe{
+        flex-flow:column ;
+
+    }
+
+    #container-team{
+        display: flex;
+        flex-flow: row;
+    }
+ }
