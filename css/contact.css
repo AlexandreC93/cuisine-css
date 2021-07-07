@@ -1,21 +1,22 @@
 header{
-    
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.9));}
+    background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
+    url(../img/header.jpg) center center /cover no-repeat;
+}
 
     .gmap_canvas {
         overflow: hidden;
         background: none !important;
         height: 380px;
-        width: 375px;
+        width: 370px;
     }
 
     .mapouter {
                             
                             
         height: 380px;
-        width: 375px;
+        width: 370px;
     }
 
     .titre-article{
@@ -27,7 +28,7 @@ header{
     }
 
 
-@media only screen and (min-width: 560px ) {
+@media only screen and (min-width: 600px ) {
 
     .gmap_canvas {
         overflow: hidden;
@@ -44,16 +45,50 @@ header{
 }
 }
 
+@media only screen and (max-width: 995.5px ) {
+    aside{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 998px ) {
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 380px;
+        width: 800px;
+    
+}
+.mapouter {
+                            
+                            
+    height: 380px;
+    width: 800px;
+}
+
+#container{
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+}
+
 
 @media only screen and (min-width: 990px) {
         
     
 aside{
     display: flex;
-    flex-flow: column wrap;
-    align-self: flex-start;
-    justify-content: space-evenly;
+    flex-flow: column ;
+    justify-content: flex-start;
    
+}
+
+.aside{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
 }
 
 #recherche{

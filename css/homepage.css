@@ -5,53 +5,6 @@ header{
     url(../img/header.jpg) center center /cover no-repeat;
 }
 
-
-footer{
-    background-color: black;
-    width: 100%;
-}
-
-.titre-foot{
-    color: white;
-    font-family: 'Courgette', cursive;
-}
-
-#brand{
-    border-bottom: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-#email-bar{
-    border: gray  2px ;
-    
-}
-
-.subscribe-foot{
-    font-family: 'Oswald', 'sans serif';
-    background-color: black;
-    color: white;
-    border: white 2px solid;
-}
-
-.subscribe-side{
-    font-family: 'Oswald', 'sans serif';
-    background-color:white;
-    color: black;
-    height: 4vh;
-    border: 2px solid;
-    
-}
-
-#email-bar{
-    font-family: 'Oswald', 'sans serif';
-}
-
-#search-bar{
-    font-family: 'Oswald', 'sans serif';
-}
-
 #container-article{
     display: flex;
     flex-flow: column wrap;
@@ -167,6 +120,20 @@ footer{
     
             
         }
+
+    @media only screen and (min-width:992px){
+        aside{
+            padding-right: 3vw; 
+            padding-top: 18vh;
+        }
+
+        .subscribe-side{
+            width: 15vw;
+            height: 3vh;
+            color: black;
+        }
+
+    }
 
     @media only screen and (min-width:1200px){
 

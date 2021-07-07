@@ -1,11 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200&display=swap');
 
+
+
+
+/* NAV */
+
+#brand{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#email-bar{
+    border: gray  2px ;
+    
+}
+
+#email-bar{
+    font-family: 'Oswald', 'sans serif';
+}
+
+#search-bar{
+    font-family: 'Oswald', 'sans serif';
+}
+_____________________________________
+
+
+/* FOOTER */
+
+.subscribe-foot{
+    font-family: 'Oswald', 'sans serif';
+    background-color: black;
+    color: white;
+    border: white 2px solid;
+   
+    
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.titre-foot{
+    color: white;
+    font-family: 'Courgette', cursive;
+}
+
+.btn-foot{
+    color: white;
+    list-style: none;
+    
+}
+
+.icon-foot{
+    display: flex;
+   flex-direction: row;
+    padding-top: 1vh;
+    padding-bottom: 10vh;
+   
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+}
+___________________________________
+
+.subscribe-side{
+    font-family: 'Oswald', 'sans serif';
+    background-color:white;
+    color: black;
+    height: 4vh;
+    border: 2px solid;
+    
+}
+
 /* Classe */
 
 ::selection{
     color:white;
     background-color: gray;
 }
+_____________________________________
 
 .img-head{
     width: 15rem;
@@ -24,6 +103,7 @@ body{
     color: black;
 }
 
+/* TITRE */
 
 .titre{
     color: white;
@@ -35,10 +115,8 @@ body{
     font-family: 'Courgette' , 'cursive';
 }
 
-.btn-foot{
-    color: white;
-    list-style: none;
-    
+ul{
+    text-decoration: none;
 }
 
 a{
@@ -70,26 +148,18 @@ p.font{
     font-family: 'Oswald', 'sans serif';
 }
 
-#mail-foot{
-    font-family: 'Oswald', 'sans serif';
-}
+
 
 #text-head{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     color: white;
     font-family: 'Courgette', 'cursive';
 }
 
-.icon-foot{
-    display: flex;
-   flex-direction: row;
-    padding-top: 1vh;
-    padding-bottom: 3vh;
-   
-}
+
 
 /* Media-Query */
 
@@ -103,8 +173,13 @@ p.font{
         padding-top: 1vh;
     }
     
-
-
+    .subscribe-foot{
+        width: 10vw;
+        
+    }
+    #mail-foot{
+        width: 20vw;
+    }
     
 }
 
@@ -113,16 +188,9 @@ p.font{
         padding: 4vw;
     }
 
-    aside{
-        padding-right: 3vw; 
-        padding-top: 18vh;
-    }
+    
 
-    .subscribe-side{
-        width: 15vw;
-        height: 3vh;
-        color: black;
-    }
+    
 
     #search-bar{
         border: solid 1px;

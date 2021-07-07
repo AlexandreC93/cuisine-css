@@ -1,13 +1,17 @@
 header{
     
-    background-image:url(/img/team/team.jpg);
-    height: 50rem;
-    width: 100vw;
-    background: linear-gradient(rgba(0, 0, 0, 0.9));}
-
+    height: 100%;
+    width: 100%;
+    background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
+    url(../img/team/team.jpg) center center /cover no-repeat;
+}
 
 img{
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
+ }
+
+ .img-head{
+     visibility: hidden;
  }
