@@ -1,6 +1,103 @@
 header{
     
-    background-image:url(/img/header.jpg);
-    height: 50rem;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.9));}
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 380px;
+        width: 375px;
+    }
+
+    .mapouter {
+                            
+                            
+        height: 380px;
+        width: 375px;
+    }
+
+    .titre-article{
+        padding-left: 2vw;
+    }
+
+    #container-map{
+        padding-left: 4vw;
+    }
+
+
+@media only screen and (min-width: 560px ) {
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 380px;
+        width: 573px;
+    
+}
+.mapouter {
+                            
+                            
+    height: 380px;
+    width: 573px;
+}
+}
+
+
+@media only screen and (min-width: 990px) {
+        
+    
+aside{
+    display: flex;
+    flex-flow: column wrap;
+    align-self: flex-start;
+    justify-content: space-evenly;
+   
+}
+
+#recherche{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+#Newsletter{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 380px;
+    width: 800px;
+
+}
+.mapouter {
+                        
+                        
+height: 380px;
+width: 800px;
+}
+
+}
+
+@media only screen and (min-width: 1200px){
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 380px;
+        width: 900px;
+    
+    }
+    .mapouter {
+                            
+                            
+    height: 380px;
+    width: 900px;
+    padding-bottom: 2vh;
+    }
+    
+}

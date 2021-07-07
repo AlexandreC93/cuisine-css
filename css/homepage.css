@@ -1,18 +1,14 @@
 header{
-    height: 50rem;
-    width: 30rem;
+    height: 100%;
+    width: 100%;
     background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
     url(../img/header.jpg) center center /cover no-repeat;
-    
-    
-
 }
-
-    
 
 
 footer{
     background-color: black;
+    width: 100%;
 }
 
 .titre-foot{
@@ -28,7 +24,7 @@ footer{
 }
 
 #email-bar{
-    border: gray  2px s;
+    border: gray  2px ;
     
 }
 
@@ -58,25 +54,142 @@ footer{
 
 #container-article{
     display: flex;
-    flex-flow: column;
-    justify-content: right;
+    flex-flow: column wrap;
+    justify-content: center;
     align-items: center;
-
-
 }
 
-.img-art{
-    width: 25rem;
+.lien-recip{
+    color: black;
 }
 
-body{
-    margin: 0;
-    width: 10rem;
+#container{
+    display: flex;
 }
 
-@media{
-
+.retour{
+    padding-bottom: 2vh ;
+    padding-left: 6vw;
 }
+
+
+
+
+    /* Media-Query */
+
+    @media only screen and (max-width: 767px){
+
+    
+
+        #suzette-article{
+            display: flex;
+            flex-flow: column wrap;
+            
+            
+        }
+        
+        #metro-article{
+            display: flex;
+            flex-flow: column wrap;
+            
+        }
+        
+        #vitaly-article{
+            display: flex;
+            flex-flow: column wrap;   
+        }
+        .img-art {
+            width: 100vw;
+        }
+    
+        .last-article {
+            padding: 6vw;
+        }
+    }
+
+    @media only screen and (max-width: 991px  )  {
+        aside{
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+   
+       
+        .img-art{
+            width: 30vw;
+            height: 15vh;
+            padding-left: 7vw;
+            padding-bottom: 3vh;
+        }
+    
+        #container-article{
+            display: flex;
+            flex-flow: row wrap;
+            
+            
+            
+        }
+    
+        #suzette-article{
+            display: flex;
+            flex-flow: row ;
+            align-items: flex-start;
+           
+        }
+    
+        #metro-article{
+                display: flex;
+                flex-flow: row ;
+                align-items: flex-start;
+               
+           
+        }
+        #vitaly-article{
+            display: flex;
+            flex-flow: row;
+            align-items: flex-start;
+        }
+    
+        .text-art{
+            padding-left: 4vw;
+        }
+    
+        aside{
+            padding-left: 2vw;
+        }
+    
+        .last-article{
+            padding: 3vw;
+        }
+
+        
+    
+            
+        }
+
+    @media only screen and (min-width:1200px){
+
+    }
+
+    @media only screen and (min-width:1400px) {
+        .img-art{
+        width: 35vw;
+        height: 25vh;
+    
+    
+        }
+
+
+
+        
+        
+    }
+
+    
+
+
+
 
 
 
