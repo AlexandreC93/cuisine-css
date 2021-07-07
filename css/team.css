@@ -47,12 +47,15 @@ img{
 
  @media only screen and (min-width: 992px){
     #equipe{
-        flex-flow:column ;
+        flex-flow:column-reverse ;
+        
 
     }
 
     #container-team{
         display: flex;
         flex-flow: row;
+        justify-content: space-around;
+        
     }
  }
