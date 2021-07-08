@@ -10,7 +10,7 @@ header{
     width: 100%;
     background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
     url(../img/team/team.jpg) center center /cover no-repeat;
-    padding-bottom: 50vh;
+    padding-bottom: 60vh;
 }
 
 #container{
@@ -55,6 +55,16 @@ img{
      height: 20vh;
      
  }
+
+ .img-team:hover{
+    height: 25vh;
+    width: 11vw;
+    
+}
+
+.img-team{
+    transition: 1s;
+}
 
 /* MEDIA-QUERY */
 
@@ -105,14 +115,14 @@ img{
         display: flex;
         flex-flow:row wrap ;
         padding-right: 0vw;
-        justify-content: space-around;
+        
     
     }
 
     #equipe-2{
         display: flex;
-        flex-flow:row-reverse wrap ;
-        justify-content: space-evenly;
+        flex-flow:row-reverse ;
+        
         
         
         

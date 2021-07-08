@@ -1,9 +1,9 @@
 header{
     height: 100%;
     width: 100%;
-    background: 
+    background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
     url(../img/articles/suzette/suzette-header.jpg) center center /cover no-repeat;
-    padding-bottom:15vh ;
+    padding-bottom:65vh ;
 
 }
 a.titre-article {
@@ -11,12 +11,13 @@ a.titre-article {
     font-size: 2vw;
 }
 
-footer a{
-  text-decoration: none;
+a.titre-article:hover {
+    color: white;
+    font-size: 2vw;
 }
 
-#brand{
-    background-color: black;
+footer a{
+  text-decoration: none;
 }
 
 #text-head{
@@ -42,6 +43,10 @@ footer a{
     font-family: 'Oswald', 'sans serif';
     width: 90vw;
     height: 10vh;
+}
+
+#text{
+    padding-left:  2vw; ;
 }
 
 .img-post{

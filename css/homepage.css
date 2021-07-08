@@ -3,17 +3,17 @@ header{
     width: 100%;
     background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
     url(../img/header.jpg) center center /cover no-repeat;
-    padding-bottom: 15vh;
+    padding-bottom: 25vh;
 }
 
-/* .img-art:hover{
+.img-art:hover{
     height: 20vh;
     width: 40vw;
 }
 
 .img-art{
     transition: 1s;
-} */
+}
 
 /* @keyframes yoyo {
     50%{
@@ -55,7 +55,14 @@ header{
 
     @media only screen and (max-width: 767px){
 
-    
+        .img-art:hover{
+            height: initial;
+            width: 100vw;
+        }
+        
+        .img-art{
+            transition: 0s;
+        }
 
         #suzette-article{
             display: flex;
@@ -156,6 +163,19 @@ header{
             color: black;
         }
 
+        .img-art{
+            height: 20vh;
+        }
+
+        .img-art:hover{
+            height: 25vh;
+            width: 35vw;
+        }
+        
+        .img-art{
+            transition: 1s;
+        }
+
     }
 
     @media only screen and (min-width:1200px){
@@ -168,6 +188,14 @@ header{
         height: 25vh;
     
     
+        }
+        .img-art:hover{
+            height: 35vh;
+            width: 40vw;
+        }
+        
+        .img-art{
+            transition: 1s;
         }
 
 

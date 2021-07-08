@@ -102,6 +102,21 @@ body{
     
    
 }
+
+a.titre {
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+a.titre-article:hover {
+    color: white;
+    font-size: 2vw;
+}
+
 #icon{
     color: black;
 }
@@ -112,10 +127,12 @@ body{
     color: white;
     padding: 2vh;
     margin: 2vh;
+    text-decoration: none;
 }
 
 .titre-article{
     font-family: 'Courgette' , 'cursive';
+    text-decoration: none;
     
 }
 _____________________________________________
@@ -198,9 +215,10 @@ p.font{
         padding: 4vw;
     }
 
-    
-
-    
+    .nav-link{
+        width: 5vw;
+      
+    }
 
     #search-bar{
         border: solid 1px;

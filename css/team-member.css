@@ -24,8 +24,24 @@ header{
     flex-flow: column wrap;
 }
 
+a.titre-article {
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+footer a {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 991px) {
     aside{
         display: none;
     }   
+}
+
+@media  screen and (min-width: 992px) {
+    #container{
+        display: flex;
+        justify-content: space-around;
+    }
 }

@@ -30,6 +30,15 @@ header{
     
 }
 
+a.titre-article {
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+footer a {
+  text-decoration: none;
+}
+
 .img-sponso{
     width: 25vw;
     padding: 2vh;
