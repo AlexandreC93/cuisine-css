@@ -1,0 +1,31 @@
+header{
+    height: 100%;
+    width: 100%;
+    background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
+    url(../img/team/team.jpg) center center /cover no-repeat;
+    padding-bottom:15vh ;
+
+}
+
+
+.img-member{
+    border-radius: 50%;
+    width: 25vw;
+    height: 20vh;
+}
+
+#antoine{
+    display: flex;
+    flex-flow: row;
+}
+
+#text-side{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+@media only screen and (max-width: 991px) {
+    aside{
+        display: none;
+    }   
+}

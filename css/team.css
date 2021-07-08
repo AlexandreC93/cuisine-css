@@ -1,9 +1,21 @@
+.img-team:hover{
+    height:25vh ;
+    transition: 0.5s;
+    
+}
+
 header{
     
     height: 100%;
     width: 100%;
     background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
     url(../img/team/team.jpg) center center /cover no-repeat;
+    padding-bottom: 50vh;
+}
+
+#container{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
 }
 
 #text-head{
@@ -17,8 +29,7 @@ header{
 
 
 img{
-    width: 10rem;
-    height: 10rem;
+    
     border-radius: 50%;
  }
 
@@ -41,8 +52,8 @@ img{
 }
 
  .img-team{
-     height: 25vh;
-     width: 25vw;
+     height: 20vh;
+     
  }
 
 /* MEDIA-QUERY */
@@ -55,9 +66,22 @@ img{
      
  }
 
- @media only screen and (min-width: 992px){
+ @media only screen and (min-width: 768px){
+    
+    
+
+    #container{
+        display: flex;
+        justify-content: space-around;
+
+        
+    }
+    
     #equipe{
+        display: flex;
         flex-flow:column-reverse ;
+        padding-right: 10vw;
+        justify-content: space-around;
         
 
     }
@@ -66,6 +90,45 @@ img{
         display: flex;
         flex-flow: row;
         justify-content: space-around;
+        width: 100%;
+    }
+
+    
+ }
+
+ @media only screen and (min-width: 992px) {
+    aside{
+        display: initial;
+        }
+
+    #equipe{
+        display: flex;
+        flex-flow:row wrap ;
+        padding-right: 0vw;
+        justify-content: space-around;
+    
+    }
+
+    #equipe-2{
+        display: flex;
+        flex-flow:row-reverse wrap ;
+        justify-content: space-evenly;
+        
+        
         
     }
+
+    #container-team{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .team{
+        padding: 3vw;
+    }
+ }
+
+
+ @media only screen and (min-width: 1800px) {
+     
  }

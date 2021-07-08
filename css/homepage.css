@@ -3,7 +3,29 @@ header{
     width: 100%;
     background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
     url(../img/header.jpg) center center /cover no-repeat;
+    padding-bottom: 15vh;
 }
+
+/* .img-art:hover{
+    height: 20vh;
+    width: 40vw;
+}
+
+.img-art{
+    transition: 1s;
+} */
+
+/* @keyframes yoyo {
+    50%{
+        
+        
+    }
+
+    100%{
+        height: initial;
+    }
+    
+} */
 
 #container-article{
     display: flex;
@@ -18,6 +40,7 @@ header{
 
 #container{
     display: flex;
+    padding-bottom: 15vh;
 }
 
 .retour{

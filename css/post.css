@@ -1,20 +1,168 @@
 header{
-    
-    background-image:url(/img/articles/suzette/suzette-header.jpg);
-    height: 50rem;
-    width: 100vw;
-    background: linear-gradient(rgba(0, 0, 0, 0.9));}
+    height: 100%;
+    width: 100%;
+    background: 
+    url(../img/articles/suzette/suzette-header.jpg) center center /cover no-repeat;
+    padding-bottom:15vh ;
 
-    #text-head{
-        background-color: black;
+}
+a.titre-article {
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+#brand{
+    background-color: black;
+}
+
+#text-head{
+    background-color: black;
         color: white;
+        text-align: center;
+        width: 40vw;
+        margin-left: 30vw;
+        margin-top: 10vh;
+    }
+
+#email-com{
+    font-family: 'Oswald', 'sans serif';
+    width: 90vw;
+    }
+
+#nom-com{
+    font-family: 'Oswald', 'sans serif';
+    width: 90vw;
+
+    }
+#text-com{
+    font-family: 'Oswald', 'sans serif';
+    width: 90vw;
+    height: 10vh;
+}
+
+.img-post{
+    grid-area:b ;
+    width: 25vw;
+    border-radius: 50%;
+
+}
+
+
+.post-class{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 2vh;
+}
+
+.img-com{
+    width: 10vw;
+    height: 6vh;
+}
+
+.img-hate{
+    width: 10vw;
+    height: 6vh;
+    padding-right: 2vw;
+    color: grey;
+}
+
+.text-avis-com{
+    display: flex;
+    flex-flow:column wrap ;
+    padding-left: 4vw ;
+}
+
+.text-avis-hate{
+    color: grey;
+    
+}
+
+.avis-com{
+    display: flex;
+    flex-flow: row ;
+    padding-left: 6vw;
+}
+
+.avis-hate{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+
+
+/* MEDIA-QUERY */
+
+@media only screen and (max-width:991px) {
+    aside{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    aside{
+        display: initial;
+        padding-top: 10vh;
+    }
+
+    #container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 10vh;
+    }
+
+    .post-class{
+        display: grid;
+        grid-template-areas: 
+                "b b a"
+                "b b c"
+                "b b c";
+                padding-top: 5vh;
+                padding-bottom: 5vh;
     }
 
     #email-com{
         font-family: 'Oswald', 'sans serif';
-    }
-
+        width: 30vw;
+        }
+    
     #nom-com{
         font-family: 'Oswald', 'sans serif';
-
+        width: 30vw;
+    
+        }
+    #text-com{
+        font-family: 'Oswald', 'sans serif';
+        width: 30vw;
+        height: 10vh;
     }
+
+    .post-form{
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feedback{
+        padding: 5vw;
+    }
+
+    .img-com{
+        width: 5vw;
+    }
+
+    .img-hate{
+        width: 7vw;
+    }
+
+    
+}

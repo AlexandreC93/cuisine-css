@@ -49,9 +49,12 @@ footer{
     font-family: 'Courgette', cursive;
 }
 
-.btn-foot{
+li.btn-foot{
     color: white;
     list-style: none;
+    text-decoration: none;
+    
+    
     
 }
 
@@ -113,7 +116,11 @@ body{
 
 .titre-article{
     font-family: 'Courgette' , 'cursive';
+    
 }
+_____________________________________________
+
+/* BALISE */
 
 ul{
     text-decoration: none;
@@ -134,7 +141,9 @@ i{
 }
 
 i.foot{
-  background: white;
+    text-decoration: none;
+    width: 2vw;
+  color: white;
   padding: 1vh;
   margin: 1vh;
 }
@@ -171,6 +180,7 @@ p.font{
     #foot{
         padding-left: 3vw;
         padding-top: 1vh;
+        
     }
     
     .subscribe-foot{
