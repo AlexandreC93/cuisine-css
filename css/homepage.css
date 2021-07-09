@@ -6,14 +6,7 @@ header{
     padding-bottom: 25vh;
 }
 
-.img-art:hover{
-    height: 20vh;
-    width: 40vw;
-}
 
-.img-art{
-    transition: 1s;
-}
 
 /* @keyframes yoyo {
     50%{
@@ -105,6 +98,15 @@ header{
             padding-left: 7vw;
             padding-bottom: 3vh;
         }
+
+        .img-art:hover{
+            height: 20vh;
+            width: 40vw;
+        }
+        
+        .img-art{
+            transition: 1s;
+        }
     
         #container-article{
             display: flex;
@@ -175,6 +177,8 @@ header{
         .img-art{
             transition: 1s;
         }
+
+        
 
     }
 
